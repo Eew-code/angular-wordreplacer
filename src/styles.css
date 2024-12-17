@@ -1,0 +1,35 @@
+.current-match {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+.other-match {
+  background-color: #fff59d;
+  color: black;
+}
+
+.search-replace-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-replace-container input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-replace-container button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.search-replace-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
